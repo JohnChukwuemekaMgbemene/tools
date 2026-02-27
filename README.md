@@ -1,6 +1,6 @@
 # Firxttech Toolbelt
 
-A curated collection of tools distributed by [Firxttech](https://github.com/JohnChukwuemekaMgbemene). Source code for each tool lives in separate private repositories; this repo is the public distribution point for releases and downloads.
+A curated collection of tools distributed by [Firxttech](https://firxttech.com/tools). Source code for each tool lives in separate private repositories; this repo is the public distribution point for releases and downloads.
 
 ---
 
