@@ -1,0 +1,24 @@
+name: Publish Release
+
+on:
+  push:
+    tags:
+      - '**'   # trigger on any tag, e.g. tool-name/v1.2.3
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Create GitHub Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true
+          files: |
+            tools/**/*
