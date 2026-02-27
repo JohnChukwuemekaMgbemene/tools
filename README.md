@@ -8,7 +8,7 @@ A curated collection of tools distributed by [Firxttech](https://github.com/John
 
 | Tool | Description | Latest Release |
 |------|-------------|----------------|
-| *(tools will be listed here as they are published)* | | |
+| [OfficeRemover](./tools/OfficeRemover/) | Cleanly removes Microsoft Office installations from Windows | [v0.2.0](https://github.com/JohnChukwuemekaMgbemene/tools/releases/tag/OfficeRemover-v0.2.0) |
 
 ---
 
@@ -39,10 +39,11 @@ Refer to each tool's individual README located in its subdirectory under [`tools
 
 ## Releases
 
-New versions are published via [GitHub Releases](https://github.com/JohnChukwuemekaMgbemene/tools/releases). Each release contains:
+New versions are published via [GitHub Releases](https://github.com/JohnChukwuemekaMgbemene/tools/releases). Each tool is tagged independently (e.g. `OfficeRemover-v0.2.0`). To publish a new release:
 
-- Pre-built binaries for Linux, macOS, and Windows
-- A changelog describing what changed
+1. Add or update the tool's `README.md` in `tools/<ToolName>/`
+2. Push a tag: `git tag <ToolName>-v<version> && git push origin <ToolName>-v<version>`
+3. Upload the binaries to the auto-created GitHub Release
 
 ---
 

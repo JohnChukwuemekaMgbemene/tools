@@ -7,14 +7,19 @@
 ehthumbs.db
 Thumbs.db
 
-# Build artifacts and binaries (committed intentionally via releases, not build output)
+# Build artifacts
 *.o
 *.a
 *.so
 *.dylib
-*.exe
 *.out
 *.class
+
+# Binaries — distributed via GitHub Releases, not committed
+*.exe
+*.msi
+*.zip
+*.tar.gz
 
 # Dependency directories
 node_modules/
